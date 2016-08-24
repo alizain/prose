@@ -1,0 +1,18 @@
+{
+    "use": [
+        "pixrem",
+        "autoprefixer",
+        "postcss-import",
+        "postcss-nested",
+        "postcss-initial",
+        "pleeease-filters",
+        "postcss-color-hwb",
+        "postcss-color-gray",
+        "postcss-color-function",
+        "cssnano"
+    ],
+    "local-plugins": true,
+    "autoprefixer": {
+        "browsers": "> 5%"
+    }
+}
