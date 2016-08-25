@@ -1,6 +1,6 @@
 ---
 title:      The Man in the Arena
-type:       excerpt
+type:       quote
 author:     theodore-roosevelt
 source:     citizenship-in-a-republic
 ---

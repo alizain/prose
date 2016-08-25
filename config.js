@@ -15,9 +15,13 @@ export default {
       glob: "./data/content/**/*.md",
       processAs: "markdown",
       refs: [
-        { key: "author", from: "authors" },
-        { key: "source", from: "content" }
+        { key: "author", from: "authors" }
       ],
+      self: {
+        inherit: true,
+        parent: "source",
+        child: "children"
+      },
       url: content.url
     }
   ],
